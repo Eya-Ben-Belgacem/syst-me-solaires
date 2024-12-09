@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>عطارد</title>
+    <style>
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #1a1a1a;
+    color: #fff;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.header {
+   background-color: #655d5d;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 6px 10px #000000cc;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header h1 {
+    font-size: 3rem;
+    color: #f39c12;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #f39c12;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.6rem;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+    text-shadow: 0 0 8px #f39c12;
+}
+
+#planets {
+  
+    background-color: #1a1a1a;
+   
+    height: auto;
+    margin: 0 auto;
+    width: 40%;
+   
+    padding: 20px;
+    text-align: center;
+}
+
+.planet {
+    background: #1a1a1a;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px #1a1a1a;
+    text-align: center;
+    padding: 25px;
+    position: relative;
+ 
+}
+
+.planet:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px #000000cb;
+}
+
+.planet img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.planet h2 {
+    font-size: 2em;
+    color: #f39c12;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.planet p {
+    font-size: 1.1em;
+    color: rgba(186, 186, 186, 0.8);
+    margin-bottom: 12px;
+}
+
+.planet p strong {
+    color: #f39c12;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2.2em;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .planet h2 {
+        font-size: 1.5em;
+    }
+
+    .planet p {
+        font-size: 1em;
+    }
+
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+    <div class="header">
+        <h1>اكتشف النظام الشمسي ! 🪄</h1>
+        <nav>
+            <ul>
+                <li><a href="formulaire.html">تقييم</a></li>
+                <li><a href="mercure.html">عطارد</a></li>
+                <li><a href="acceuil.html">الاستقبال</a></li>
+            </ul>
+        </nav>
+    </div>
+    </div>
+    <section id="planets">
+        
+        <div class="planet">
+            <section id="mercury">
+            <h2>عطارد</h2>
+            <img src="mercury.jpg" alt="عطارد">
+            <p><strong>بعدها عن الشمس :</strong> 57.9 مليون كم مربع </p>
+            <p><strong>الكتلة :</strong> 0.33 * 10^24 كغ </p>
+            <p><strong>الشعاع :</strong> 4.8880 كم</p>
+            <p><strong>الحرارة المتوسطة :</strong> 167 درجة </p>
+            <p><strong>وصفها :</strong> 
+                عطارد هو الكوكب الأقرب إلى الشمس، وهو أصغر كواكب المجموعة الشمسية وأكثرها سرعة في الدوران حول الشمس. يتميز عطارد بعدة خصائص فريدة تجعله مثيرًا للاهتمام:
+        
+                </p></section>
+            </div>
+    </section>
+    <footer> <p>&copy; 2024 النظام الشمسي. جميع الحقوق محفوظة.</p> </footer>
+</body>
+</html>
